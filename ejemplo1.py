@@ -34,4 +34,5 @@ class HomeTheaterFacade:
 
 if __name__ == "__main__":
     home_theater = HomeTheaterFacade()
-    home_theater.ver_pelicula("Avengers End Game")
+    pelicula = str(input("Escoja una película: "))
+    home_theater.ver_pelicula(pelicula)
